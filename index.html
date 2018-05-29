@@ -1,0 +1,152 @@
+<html>
+<head>
+<title>
+  Alek Carnell
+</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel=stylesheet href="body.css" type="text/css">
+
+<script>
+function openCity(evt, cityName) {
+    // Declare all variables
+    var i, tabcontent, tablinks;
+
+    // Get all elements with class="tabcontent" and hide them
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    // Get all elements with class="tablinks" and remove the class "active"
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+
+    // Show the current tab, and add an "active" class to the link that opened the tab
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+}
+</script>
+
+</head>
+<body>
+
+<div class="body">
+  <div class="profile">
+    <center>
+      <p class="name">Alek Carnell</p>
+    </center>
+
+    <center>
+      <img class="profile_img" src="profile.png" height="250px" width="250px">
+    </center>
+
+    </br>
+    </br>
+
+    <center>
+      <p class="bio">
+      I am currently developing my own this and that and am looking for Experience
+      and opportunities in finance and technology. I love dogs. Fuck.
+      </p>
+    </center>
+
+    </br>
+    </br>
+    </br>
+
+    <center>
+      <button class="download">Download Resume</button>
+    </center>
+
+    </br>
+    </br>
+    </br>
+
+    <center>
+      <p class="contact">374 Hillside Drive</br>
+      Castle Rock, CO 80104</br>
+      (410) 330 5804</br>
+      alek.carnell@yahoo.com</p>
+    </center>
+  </div>
+
+  <div class="menu">
+    <!--TAB MENU-->
+    <div class="tab">
+      <button class="tablinks" onclick="openCity(event, 'London')">About Me</button>
+      <button class="tablinks" onclick="openCity(event, 'Paris')">Skills</button>
+      <button class="tablinks" onclick="openCity(event, 'Tokyo')">Experience</button>
+      <button class="tablinks" onclick="openCity(event, 'Contact')">Links and Contact</button>
+    </div>
+
+    <!--CONTENTS-->
+
+    <div id="London" class="tabcontent">
+      <!--Header-->
+      <div class="table">
+        <div class="content_header">
+          <h3>About Me</h3>
+        </div>
+
+          <!--Content-->
+        <div class="content">
+          <p>My name is Alek and I like to eat ass</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="Paris" class="tabcontent">
+      <!--Header-->
+      <div class="table">
+        <div class="content_header">
+          <h3>Skills</h3>
+        </div>
+      </div>
+      <!--Content-->
+      <div class="content">
+        <p>Python, HTML, CSS, Excel</p>
+      </div>
+    </div>
+
+    <div id="Tokyo" class="tabcontent">
+      <!--Header-->
+      <div class="table">
+        <div class="content_header">
+          <h3>Experience</h3>
+        </div>
+      </div>
+      <!--Content-->
+      <div class="content">
+        <p>Ive seen it all actually</p>
+      </div>
+    </div>
+
+    <div id="Contact" class="tabcontent">
+      <!--Header-->
+      <div class="table">
+        <div class="content_header">
+          <h3>Links and Contact</h3>
+        </div>
+      </div>
+      <!--Content-->
+      <div class="content">
+        <p>INSTAGRAM IS LIT</p>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+
+
+
+
+
+
+</body>
+</html>
