@@ -8,14 +8,14 @@ body
 h3
 {
   font-family: calibri;
-  font-size: 35px;
+  font-size: 25px;
   color: white;
   padding-left: 30px;
 }
 
 p.name
 {
-  font-size: 60px;
+  font-size: 40px;
   font-family: calibri;
   font-weight: bold;
 }
@@ -23,26 +23,26 @@ p.name
 p.bio
 {
   width: 80%;
-  font-size: 27px;
+  font-size: 20px;
   font-family: calibri;
   padding: 5px;
-  line-height: 45px;
+  line-height: 30px;
   text-align: justify;
 }
 
 p.contact
 {
   width: 80%;
-  font-size: 27px;
+  font-size: 20px;
   font-family: calibri;
   padding: 5px;
-  line-height: 45px;
+  line-height: 35px;
 }
 
 div.body
 {
   background-color: #EDEDEC;
-  margin: 100px 100px 70px 100px;
+  margin: 70px 100px 70px 100px;
   height: 85%;
 }
 
@@ -110,7 +110,7 @@ div.content
     /*fonts*/
     color: black;
     font-family: calibri;
-    font-size: 25px;
+    font-size: 20px;
     /**/
     padding: 22px 16px;
     width: 100%;
@@ -144,19 +144,17 @@ div.content
 
 button.download
 {
-  width: 300px;
-  height: 75px;
+  width: 200px;
+  height: 65px;
   background-color: #4B6DA0;
   cursor: pointer;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   transition: 0.5s;
+  border: none;
 }
 
 button.download:hover
 {
-  width: 300px;
-  height: 75px;
   background-color: 78879E;
-  font-size: 25px;
 }
